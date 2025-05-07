@@ -1,0 +1,98 @@
+.container {
+  margin-top: 100px;
+}
+
+/* Left Section */
+.left-section h2 {
+  color: #424242;
+  font-size: 2rem;
+}
+
+.left-section p {
+  color: #424242;
+  font-size: 17px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #387ed1;
+  font-size: 17px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: #424242;
+}
+
+/* Pricing Boxes */
+.box-1 {
+  border: 1px solid #5c5b5b;
+  height: 150px;
+  width: 100%;
+  color: #424242;
+  padding: 1rem;
+}
+
+.box-1 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 992px) {
+  .left-section {
+    margin-bottom: 2rem;
+  }
+
+  .box-1 {
+    height: auto;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .box-1 {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .link a {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .left-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .left-section p,
+  .link a {
+    font-size: 16px;
+  }
+
+  .box-1 h1 {
+    font-size: 2rem;
+  }
+
+  .box-1 p {
+    font-size: 15px;
+  }
+
+  .box-1 {
+    width: 100%;
+  }
+}

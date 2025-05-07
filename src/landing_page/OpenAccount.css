@@ -1,0 +1,25 @@
+.Heading {
+  color: #424242;
+}
+.SubHeading {
+  color: #424242;
+  font-size: 18px;
+}
+.hero-img {
+  width: 62%;
+  margin: 0 auto;
+}
+.button {
+  width: 16%;
+  height: 44px;
+  background-color: #387ed1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 19.2px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+.button:hover {
+  background-color: #101010;
+}

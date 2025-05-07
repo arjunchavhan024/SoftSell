@@ -1,0 +1,75 @@
+/* Heading */
+.Heading {
+  color: #424242;
+  font-size: 2.5rem;
+}
+
+.SubHeading {
+  color: #424242;
+  font-size: 1.25rem;
+}
+
+/* Hero Image */
+.hero-img {
+  width: 62%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* CTA Button */
+.button {
+  width: 16%;
+  min-width: 180px;
+  height: 44px;
+  background-color: #387ed1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #101010;
+}
+
+/* Responsive Styling */
+@media (max-width: 992px) {
+  .hero-img {
+    width: 80%;
+  }
+
+  .Heading {
+    font-size: 2rem;
+  }
+
+  .SubHeading {
+    font-size: 1.1rem;
+  }
+
+  .button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-img {
+    width: 100%;
+  }
+
+  .Heading {
+    font-size: 1.8rem;
+  }
+
+  .SubHeading {
+    font-size: 1rem;
+  }
+
+  .button {
+    width: 80%;
+    font-size: 1rem;
+  }
+}

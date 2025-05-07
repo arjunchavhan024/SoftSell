@@ -1,0 +1,74 @@
+/* Base Styles (already provided) */
+.product-hero-head {
+  font-size: 45px;
+  font-weight: 300;
+  color: #424242;
+  margin: 50px 0 20px 0;
+}
+
+.product-hero-subhead {
+  color: #424242;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.product-hero-para {
+  font-size: 16px;
+  color: #424242;
+  margin-bottom: 70px;
+}
+
+.product-hero-link {
+  text-decoration: none;
+  color: #387ed1;
+}
+
+.product-hero-link:hover {
+  color: #424242;
+}
+
+/* 🔻 Responsive Styles */
+
+/* Medium Screens (Tablets, 768px and up) */
+@media (max-width: 992px) {
+  .product-hero-head {
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .product-hero-subhead {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .product-hero-para {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Small Screens (Phones, <768px) */
+@media (max-width: 767px) {
+  .product-hero-head {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .product-hero-subhead {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .product-hero-para {
+    font-size: 14px;
+    margin-bottom: 40px;
+    padding: 0 15px;
+  }
+
+  .product-hero-link {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}

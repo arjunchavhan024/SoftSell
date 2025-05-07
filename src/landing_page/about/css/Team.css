@@ -1,0 +1,124 @@
+/* .people {
+  margin-bottom: 65px !important;
+  font-size: 30px;
+}
+.CEO {
+  width: 65% !important;
+  border-radius: 50%;
+}
+.right-section p {
+  color: #424242;
+  font-size: 16px;
+  line-height: 25px;
+}
+.link {
+  text-decoration: none;
+  color: #387ed1;
+}
+.link:hover {
+  color: #424242;
+}
+.team img {
+  border-radius: 50%;
+  width: 60% !important;
+} */
+
+/* Heading */
+.people {
+  margin-bottom: 65px !important;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* CEO Image Styling */
+.CEO {
+  width: 65% !important;
+  border-radius: 50%;
+  max-width: 250px;
+}
+
+/* Paragraph Styling */
+.right-section p {
+  color: #424242;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* Link Styling */
+.link {
+  text-decoration: none !important;
+  color: #387ed1;
+}
+
+.link:hover {
+  color: #424242;
+}
+
+/* Team Members */
+.team img {
+  border-radius: 50%;
+  width: 60% !important;
+  max-width: 200px;
+  height: auto;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 992px) {
+  .CEO,
+  .team img {
+    width: 70% !important;
+  }
+
+  .right-section p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .people {
+    font-size: 26px;
+  }
+
+  .CEO,
+  .team img {
+    width: 60% !important;
+    margin-bottom: 15px;
+  }
+
+  .left-section,
+  .right-section {
+    text-align: center;
+  }
+
+  .right-section {
+    margin-top: 20px;
+  }
+
+  .right-section p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 10px;
+  }
+
+  .col-2,
+  .col-4,
+  .col-5,
+  .col-1 {
+    width: 100% !important;
+    padding: 0 15px;
+  }
+
+  .team {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .people {
+    font-size: 22px;
+  }
+
+  .right-section p {
+    font-size: 13px;
+  }
+}
